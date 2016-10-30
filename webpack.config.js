@@ -1,7 +1,6 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  devTool: 'eval',
   entry: [
     './app/index.js'
   ],

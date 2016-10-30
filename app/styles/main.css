@@ -1,44 +1,8 @@
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+body {
+  margin: 60px
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: rgba(252, 90, 44, 0.89);
-  color: #fff;
-  padding: 5px;
-}
-
-.containerDiv {
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.headerSearchBox {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  max-width: 300px;
-}
-
-.centerDiv {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 300px;
+.container-narrow {
   margin: 0 auto;
-  background: #333;
-  color: #fff;
+  max-width: 700px;
 }

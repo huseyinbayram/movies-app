@@ -1,9 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import routes from './routes'
+import Main from './components/Main'
 import 'bootstrap/dist/css/bootstrap.css'
+import './styles/main.css'
 
 ReactDOM.render(
-  routes,
+  <Main />,
   document.getElementById('app')
 )
